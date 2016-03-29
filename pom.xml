@@ -1141,4 +1141,17 @@
   <dependencies/>
   <!-- Intentionally empty -->
 
+  <distributionManagement>
+    <repository>
+      <id>central</id>
+      <name>central</name>
+      <url>http://artifactory.cg.ru/artifactory/libs-releases-local</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>snapshots</name>
+      <url>http://artifactory.cg.ru/artifactory/libs-snapshots-local</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
